@@ -9,5 +9,6 @@
         <ApplicationIcon>icon.ico</ApplicationIcon>
         <Company>Ivan Buksirov</Company>
         <Copyright>Ivan Buksirov. All rights reserved.</Copyright>
+        <NeutralLanguage>ru</NeutralLanguage>
     </PropertyGroup>
 </Project>

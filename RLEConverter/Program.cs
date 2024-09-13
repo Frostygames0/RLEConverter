@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-
-Console.WriteLine("Программа для кодирования и декодирования RLE (Run-Length Encoding, кодирование длин серий)");
+﻿Console.WriteLine("Программа для кодирования и декодирования RLE (Run-Length Encoding, кодирование длин серий)");
 
 if (!TryReadEncodingOption(out bool toEncode)) 
     return;
