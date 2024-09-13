@@ -7,8 +7,7 @@
         <PublishAot>true</PublishAot>
         <Nullable>enable</Nullable>
         <ApplicationIcon>icon.ico</ApplicationIcon>
-        <Company>Ivan Buksirov</Company>
-        <Copyright>Ivan Buksirov. All rights reserved.</Copyright>
-        <NeutralLanguage>ru</NeutralLanguage>
+        <Company>Frostygames0</Company>
+        <Copyright>Frostygames0 All rights reserved.</Copyright>
     </PropertyGroup>
 </Project>
