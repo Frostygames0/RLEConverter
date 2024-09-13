@@ -13,3 +13,6 @@ Desktop.ini
 .DS_Store
 
 .idea/
+
+*/[Bb]in/
+*/[Oo]bj/
