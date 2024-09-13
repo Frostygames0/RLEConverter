@@ -1,7 +1,5 @@
 ﻿using System.Text;
 
-namespace ConsoleApp6;
-
 public static class RLE
 {
     public static string Decode(string value)

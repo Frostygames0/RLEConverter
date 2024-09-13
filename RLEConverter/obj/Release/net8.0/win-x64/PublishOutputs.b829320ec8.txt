@@ -1,2 +1,0 @@
-C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\win-x64\publish\RLEConverter.exe
-C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\win-x64\publish\RLEConverter.pdb
