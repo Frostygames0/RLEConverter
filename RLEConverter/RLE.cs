@@ -45,5 +45,7 @@
                 count = 1;
             }
         }
+        
+        writer.WriteLine();
     }
 }
