@@ -25,8 +25,14 @@ while (true)
         break;
     }
 
-    var convertedLine = toEncode ? RLE.Encode(line) : RLE.Decode(line);
-    newFileWriter.WriteLine(convertedLine);
+    if (toEncode)
+    {
+        RLE.Encode(oldFileReader, newFileWriter);
+    }
+    else
+    {
+        RLE.Decode(oldFileReader, newFileWriter);
+    }
 }
 
 oldFileReader.Close();

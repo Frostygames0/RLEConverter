@@ -1,58 +1,49 @@
-﻿using System.Text;
-
-public static class RLE
+﻿public static class RLE
 {
-    public static string Decode(string value)
+    public static void Decode(StreamReader reader, StreamWriter writer)
     {
-        if (string.IsNullOrEmpty(value))
-        {
-            return value;
-        }
-    
-        var result = new StringBuilder();
         int count = 0;
     
-        foreach (var ch in value)
+        while (!reader.EndOfStream)
         {
+            var ch = (char) reader.Read();
+            
             if (char.IsDigit(ch))
             {
                 count = 10 * count + (int) char.GetNumericValue(ch);
             }
-            else 
+            else
             {
-                result.Append(new string(ch, count));
+                for (int i = 0; i < count; i++)
+                {
+                    writer.Write(ch);
+                }
+                
+                count = 0;
             }
         }
-    
-        return result.ToString();
+        
+        writer.WriteLine();
     }
     
-    // Этот кодирует
-    public static string Encode(string line)
+    public static void Encode(StreamReader reader, StreamWriter writer)
     {
-        if (string.IsNullOrEmpty(line))
-        {
-            return line;
-        }
-    
-        var result = new StringBuilder();
         int count = 1;
-    
-        for (int i = 0; i < line.Length; ++i)
+        
+        while (!reader.EndOfStream)
         {
-            if (i < line.Length - 1 && line[i] == line[i + 1])
+            var ch = reader.Read();
+            if (ch != -1 && ch == reader.Peek())
             {
                 count++;
             } 
             else 
             {
-                result.Append(count);
-                result.Append(line[i]);
+                writer.Write(count);
+                writer.Write((char) ch);
     
                 count = 1;
             }
         }
-    
-        return result.ToString();
     }
 }
