@@ -1,0 +1,17 @@
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\ConsoleApp6.pdb
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\x86\KernelTraceControl.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\x86\KernelTraceControl.Win61.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\x86\msdia140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\x86\msvcp140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\x86\vcruntime140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\amd64\KernelTraceControl.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\amd64\msdia140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\amd64\msvcp140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\amd64\vcruntime140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\amd64\vcruntime140_1.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\arm64\KernelTraceControl.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\arm64\msdia140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\arm64\msvcp140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\arm64\vcruntime140.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\arm64\vcruntime140_1.dll
+C:\Users\Ivan\RiderProjects\ConsoleApp6\ConsoleApp6\bin\Release\net8.0\linux-x64\publish\ConsoleApp6
