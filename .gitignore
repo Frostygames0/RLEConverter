@@ -14,5 +14,5 @@ Desktop.ini
 
 .idea/
 
-*/[Bb]in/
-*/[Oo]bj/
+bin/
+obj/
